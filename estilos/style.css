@@ -16,6 +16,7 @@ body {
     background: url('../imagens/fundo-universo3d.jpg') no-repeat top center;
     background-size: cover;
     background-attachment: fixed;
+    
 }
 
 main {
@@ -28,8 +29,17 @@ main {
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
-    height: 631px;
-    width: 311px;
-    background: url('../imagens/frame-iphone14.png') no-repeat;
+    height: 680px;
+    width: 325px;
+    background: url('../imagens/frame-iphone14big.png') no-repeat;
 
 }
+
+#tela {
+    position:relative;
+    top:25px;
+    left: -35px;
+    width: 400px;
+    height: 675px; 
+}
+
